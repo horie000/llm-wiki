@@ -1,0 +1,7 @@
+# Obsidian の端末ごとの UI 状態
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS metadata
+.DS_Store
+Thumbs.db

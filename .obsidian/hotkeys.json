@@ -1,0 +1,13 @@
+{
+  "terminal:open-documentation.readme": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:new-tab": [],
+  "terminal:find-in-terminal": [],
+  "terminal:close-terminal": []
+}
