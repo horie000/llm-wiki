@@ -17,6 +17,12 @@ metadata:
 4. `raw/` は原典の所有者が人間であるため、読み取り専用として扱う。変更、移動、改名、削除をしない。
 5. 書き込み後は、変更したページが索引・相互リンク・ログに反映されているか確認する。
 
+### Session history access (explicit opt-in only)
+
+- `sessions/` と Codex の外部履歴（`%USERPROFILE%\.codex\sessions`、`CODEX_HOME/sessions`、`archived_sessions`、`history.jsonl`）は、ユーザーが特定のセッション履歴を参照・書き出すよう明示した場合だけ検索・閲覧・読み込む。
+- 通常の ingest/query/lint/maintain、vault の全文検索、索引・ログ更新にはセッション履歴を含めない。セッションの書き出しツールはスケジュールや他の自動処理から起動せず、明示依頼に応じて手動で実行する。
+- この規則は運用上の制限であり、OS レベルのアクセス制御ではない。`sessions/` は Obsidian で通常どおり閲覧できる。
+
 ## Ingest: 原典を wiki に統合する
 
 対象は依頼で指定されたファイル、または `raw/inbox/` の未処理ファイル。画像や添付は本文と別に必要な範囲だけ確認する。

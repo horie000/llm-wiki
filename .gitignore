@@ -2,6 +2,15 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
+# Manually exported private Codex session history and generated build output
+sessions/
+codex-session-exporter/sessions/
+codex-session-exporter/build/
+codex-session-exporter/dist/
+codex-session-exporter/*.egg-info/
+__pycache__/
+*.py[cod]
+
 # OS metadata
 .DS_Store
 Thumbs.db
