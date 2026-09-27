@@ -2,6 +2,12 @@
 
 このログは過去エントリを再編集せず、概要説明の直後に新しいエントリを挿入します。取り込み、保存した分析、lint を新しい順に記録します。
 
+## [2026-09-27] analysis | Codex app-server の概要と使いどころ
+
+- 原典: [Codex App Server](https://learn.chatgpt.com/docs/app-server)、[Codex as a platform](https://developers.openai.com/blog/codex-as-a-platform)
+- 作成・更新: [[wiki/analyses/codex-app-server-overview|Codex app-server の概要と使いどころ]], [[wiki/analyses/codex-multi-agent-model-routing-harness|モデルルーティングの分析]], [[wiki/index|索引]]
+- 注記: 公式資料に基づく概観。実機検証は未実施で、WebSocket 通信は実験的・本番運用非対応。
+
 ## [2026-09-22] ingest | vLLM の機能と Ollama・LM Studio との比較
 
 - 原典: [vLLM 公式文書](https://docs.vllm.ai/en/latest/)、[Ollama 公式文書](https://docs.ollama.com/)、[LM Studio 公式文書](https://lmstudio.ai/docs/)

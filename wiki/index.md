@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-09-22
+updated: 2026-09-27
 ---
 
 # LLM Wiki Index
@@ -23,5 +23,6 @@ updated: 2026-09-22
 
 ## Analyses
 
+- [[wiki/analyses/codex-app-server-overview|Codex app-server の概要と使いどころ]] — 製品への組み込み、thread/turn/item、通信方法、SDK・exec との使い分け。
 - [[wiki/analyses/codex-multi-agent-model-routing-harness|Codex マルチエージェントとモデル切り替えのハーネス設計]] — ローカル LLM とクラウドモデルをチェックポイント単位で使い分けるための構成、ルーティング、検証、評価方法。
 - [[wiki/analyses/vllm-vs-ollama-lm-studio|vLLM・Ollama・LM Studio の比較]] — 用途、操作面、同時実行、multi-GPU、replica 負荷分散の比較。

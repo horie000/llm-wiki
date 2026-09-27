@@ -2,7 +2,7 @@
 type: analysis
 status: active
 created: 2026-09-22
-updated: 2026-09-22
+updated: 2026-09-27
 tags:
   - codex
   - multi-agent
@@ -230,4 +230,5 @@ Ollama は coding tool 用に少なくとも 64K context を推奨している�
 
 ## 関連リンク
 
+- [[wiki/analyses/codex-app-server-overview|Codex app-server の概要と使いどころ]]
 - [[wiki/index|LLM Wiki Index]]
